@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta');
+
+:root {}
+
+canvas {
+box-shadow : 0px 0px 10px 1px #000000; 
+
+}
+body{
+    margin: 0px;
+    padding: 30px;
+    font-family: 'Mukta';
+    overflow: hidden;
+    background-color: #5e5c5c;
+}
+.tools {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 15px
+}
+
+.tools .color-field {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 1px #000000;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    margin-left: 5px;
+}
+.color-picker {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 1px #000000;
+    border: 1px solid #ffffff;
+    margin-left: 5px;
+}
